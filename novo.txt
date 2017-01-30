@@ -1,0 +1,26 @@
+git config --global user.name ""
+git config --global user.email ""
+git init
+touch teste.txt
+git add .
+git commit -m ""
+ssh-keygen -t rsa -C ""
+notepad ~/.ssh/id_rsa.pub
+ssh -T git@github.com
+git remote add origin ...
+git push origin master
+
+git config --global user.name "ana"
+git config --global user.email "caru.alcantara@gmail.com"
+git init
+touch teste.txt
+git add . 
+git commit -m "Primeiro commit"
+ssh-keygen -t rsa -C "caru.alcantara@gmail.com"
+notepad ~/.ssh/id_rsa.pub
+ssh -T git@github.com
+git remote add origin git@github.com:seu_login/nome_do_repositorio.git
+git push origin master
+git checkout teste1.txt
+
+gggggggggggggggggggggggg
